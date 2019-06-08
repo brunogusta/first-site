@@ -1,0 +1,19 @@
+.sendButton {
+  color: #494949;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background: #ffffff;
+  padding: 2px 0px;
+  border: 3px solid #494949;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100px;
+  margin: 5px auto;
+}
+
+.sendButton:hover {
+  color: #ffffff !important;
+  background: #f6b93b;
+  border-color: #706f6e !important;
+  transition: all 0.4s ease 0s;
+}

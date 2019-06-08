@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background: rgb(128, 127, 127);
+}
+
+.cabecalho {
+  display: flex;
+  background-color: #423c3a;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #02c7c7;
+}
+
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.logo img {
+  height: 100%;
+  width: 100px;
+}
+
+.autenticacao {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.autenticacao a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 5px;
+}
+
+.login {
+  height: 60px;
+  width: 100px;
+  line-height: 60px;
+  text-align: center;
+}
+.login a {
+  color: white;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.registrar {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #424242;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.registrar a {
+  color: #02c7c7;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
