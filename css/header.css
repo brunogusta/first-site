@@ -5,23 +5,20 @@ body {
 
 .cabecalho {
   display: flex;
-  background-color: #423c3a;
+  background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
   justify-content: space-between;
   align-items: center;
-  border-bottom: solid 1px #02c7c7;
+  border-bottom: solid 3px #19161a;
 }
 
-.logo {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  margin: 5px;
+.logo h1 {
+  font-size: 50px;
+  color: #19161a;
+  font-family: 'Cabin Sketch';
+  font-weight: 300;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-.logo img {
-  height: 100%;
-  width: 100px;
-}
-
 .autenticacao {
   height: 90px;
   display: flex;
@@ -30,38 +27,17 @@ body {
 }
 
 .autenticacao a {
-  color: white;
   text-decoration: none;
-  padding: 0px 5px;
 }
 
 .login {
-  height: 60px;
-  width: 100px;
-  line-height: 60px;
-  text-align: center;
+  margin-right: 30px;
+  padding-top: 15px;
 }
 .login a {
-  color: white;
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
+  color: #19161a;
+  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz';
   text-transform: uppercase;
-  font-weight: 700;
-}
-
-.registrar {
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  border-radius: 15px;
-  background-color: #424242;
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
-}
-
-.registrar a {
-  color: #02c7c7;
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
 }
