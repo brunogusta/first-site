@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
+}
+
+.logo h1 {
+  font-family: 'Cabin Sketch';
+  text-align: center;
+  font-size: 100px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs_box {
+  font-family: 'Yanone Kaffeesatz';
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 9px 25px rgba(0, 0, 0, 0.7);
+  width: 300px;
+  margin-bottom: 30px;
+}
+.form_register > h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.form_register p {
+  font-size: 20px;
+}
+
+.form_register input {
+  width: 290px;
+}
+.sendButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 11px 0px 5px 0px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #fcad26;
+  color: #fff;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  cursor: pointer;
+  margin: 20px auto 0px auto;
+}
+
+.sendButton img {
+  margin-left: 20px;
+  width: 25px;
+}
