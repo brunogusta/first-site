@@ -21,8 +21,10 @@ body {
 }
 .autenticacao {
   height: 90px;
+  width: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-right: 20px;
 }
 
@@ -31,13 +33,64 @@ body {
 }
 
 .login {
-  margin-right: 30px;
-  padding-top: 15px;
+  padding-top: 20px;
 }
-.login a {
+
+.loginButton {
+  border: none;
+  background: none;
   color: #19161a;
   font-size: 25px;
   font-family: 'Yanone Kaffeesatz';
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.show {
+  background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
+  display: block;
+  position: absolute;
+  margin-top: 50px;
+  right: 80px;
+  border-radius: 15px;
+  padding: 10px 20px;
+  box-shadow: 0px 9px 25px rgba(0, 0, 0, 0.7);
+}
+
+.show input {
+  margin-top: 2px;
+  font-size: 20px;
+}
+
+.show p {
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz';
+  margin-bottom: 3px;
+}
+
+.sendLogButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 11px 0px 5px 0px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgba(219, 87, 5, 1);
+  color: #fff;
+  cursor: pointer;
+  margin: 20px auto 0px auto;
+}
+
+.link_register {
+  margin-top: 30px;
 }

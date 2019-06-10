@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/registerButton.css" />
-    <link rel="stylesheet" href="../fonts/Oswald.ttf" />
+    <link href="../fonts/Oswald.ttf" />
     <link
       href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap"
       rel="stylesheet"
@@ -25,9 +25,25 @@
       <div class="logo">
         <h1>{My Schedule}</h1>
       </div>
-      <aside class="autenticacao">
-        <div class="login">
-          <a href="./login.html">Login</a>
+      <!-- LOGIN COM DROPDOWN -->
+      <aside id="eventClick" class="autenticacao">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="loginButton">Entrar</button>
+          <div id="myDropdown" class="dropdown-content">
+            <form action="">
+              <p>E-mail:</p>
+              <input type="text" /><br />
+              <p>Senha:</p>
+              <input type="password" /><br />
+              <button class="sendLogButton">Entrar</button>
+            </form>
+            <p class="link_register">
+              Não possuí conta?
+              <a href="../html/registerPage.html">Registre-se!</a>
+            </p>
+          </div>
+
+          <!-- REGISTRO -->
         </div>
         <div class="registrar">
           <a href="./registerPage.html">Registrar!</a>
@@ -36,7 +52,6 @@
     </header>
     <section class="corpo"></section>
 
-    <footer class="rodape"></footer>
-    <div class="border"></div>
+    <script src="../js/dropdown.js"></script>
   </body>
 </html>
