@@ -1,43 +1,47 @@
-
-  @font-face {
-    font-family: 'Yanone Kaffeesatz';
-    src: url('../fonts/YanoneKaffeesatz-Bold.ttf');
-  }
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url('../fonts/YanoneKaffeesatz-Bold.ttf');
+}
 
 .registrar {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .registrar a {
-	position: relative;
-    color: rgba(255,255,255,1);
-    text-decoration: none;
-    background-color: rgba(219,87,5,1);
-    font-family: 'Yanone Kaffeesatz';
-    font-weight: 700;
-    font-size: 25px;
-    display: block;
-    padding: 4px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    margin: 100px auto;
-	width: 100px;
-	text-align: center;
-	
-	-webkit-transition: all .1s ease;
-	-moz-transition: all .1s ease;
-	-ms-transition: all .1s ease;
-	-o-transition: all .1s ease;
-	transition: all .1s ease;
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  background-color: rgba(219, 87, 5, 1);
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 700;
+  font-size: 25px;
+  display: block;
+  padding: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1),
+    0px 9px 25px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1),
+    0px 9px 25px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, 0.7);
+  margin: 100px auto;
+  width: 100px;
+  text-align: center;
+
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 .registrar a:hover {
-    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
-    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
-    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
-    position: relative;
-    top: 6px;
+  -webkit-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1),
+    0px 3px 6px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1),
+    0px 3px 6px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, 0.9);
+  position: relative;
+  top: 6px;
+}
