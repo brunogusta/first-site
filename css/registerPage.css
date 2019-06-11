@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Cabin Sketch';
+  src: url('../fonts/CabinSketch-Regular.ttf');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url('../fonts/YanoneKaffeesatz-Bold.ttf');
+}
+
 html {
   height: 100%;
 }

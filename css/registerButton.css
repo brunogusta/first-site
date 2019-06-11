@@ -1,3 +1,9 @@
+
+  @font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src: url('../fonts/YanoneKaffeesatz-Bold.ttf');
+  }
+
 .registrar {
     margin-left: 30px;
 }

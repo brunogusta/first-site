@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Cabin Sketch';
+  src: url('../fonts/CabinSketch-Regular.ttf');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url('../fonts/YanoneKaffeesatz-Bold.ttf');
+}
 body {
   margin: 0;
   background: rgb(128, 127, 127);
@@ -57,7 +65,7 @@ body {
   display: block;
   position: absolute;
   margin-top: 50px;
-  right: 80px;
+  right: 90px;
   border-radius: 15px;
   padding: 10px 20px;
   box-shadow: 0px 9px 25px rgba(0, 0, 0, 0.7);
