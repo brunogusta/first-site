@@ -1,12 +1,15 @@
+//Login
 function myFunction() {
   document.getElementById('myDropdown').classList.toggle('show');
 }
 
-const removeLog = document.querySelector('#eventClick');
-
 window.onclick = function(e) {
-  const contains = removeLog.contains(e.target);
-  if (contains == false) {
+  const removeLog = document.querySelector('#eventClick');
+  const containsLog = removeLog.contains(e.target);
+
+  console.log('Log: ' + containsLog);
+
+  if (containsLog == false) {
     document.getElementById('myDropdown').classList.remove('show');
   }
 };

@@ -7,10 +7,6 @@
   src: url('../fonts/YanoneKaffeesatz-Bold.ttf');
 }
 
-html {
-  height: 100%;
-}
-
 body {
   margin: 0;
   background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
@@ -45,10 +41,12 @@ section {
 
 .form_register p {
   font-size: 20px;
+  margin: 10px 0px;
 }
 
 .form_register input {
   width: 290px;
+  height: 30px;
 }
 .sendButton {
   display: flex;

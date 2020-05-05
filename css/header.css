@@ -13,7 +13,7 @@ body {
 
 .cabecalho {
   display: flex;
-  background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
+  background: url('http://subtlepatterns.com/patterns/ricepaper.png');
   justify-content: space-between;
   align-items: center;
   border-bottom: solid 3px #19161a;
@@ -61,6 +61,7 @@ body {
 }
 
 .show {
+  z-index: 90000;
   background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
   display: block;
   position: absolute;
@@ -72,14 +73,14 @@ body {
 }
 
 .show input {
-  margin-top: 2px;
   font-size: 20px;
 }
 
-.show p {
+.show label {
+  display: block;
   font-size: 20px;
   font-family: 'Yanone Kaffeesatz';
-  margin-bottom: 3px;
+  margin-top: 10px;
 }
 
 .sendLogButton {
@@ -100,5 +101,7 @@ body {
 }
 
 .link_register {
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 20px;
   margin-top: 30px;
 }
